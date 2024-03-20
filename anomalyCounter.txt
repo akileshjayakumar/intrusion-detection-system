@@ -1,0 +1,6 @@
+Day 189 anomaly count = 18.48 - ANOMALY DETECTED
+
+ALERT! Anomalies detected!
+
+Day 189 has been flagged!
+
