@@ -49,3 +49,7 @@ This Python script simulates an Intrusion Detection System (IDS) for analyzing a
 ## Alerting
 
 The script flags anomalies detected in the activity logs and provides alerts when anomalies are found.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
