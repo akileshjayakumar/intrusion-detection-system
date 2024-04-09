@@ -6,27 +6,34 @@ This Python script simulates an Intrusion Detection System (IDS) for analyzing a
 
 - Python 3.x
 
+## Features
+
+- Simulates an Intrusion Detection System (IDS) for analyzing activity logs.
+- Detects anomalies in the activity logs and provides alerts.
+- Generates activity logs based on event and statistics data.
+- Calculates baseline statistics for comparison with activity logs.
+
 ## Usage
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-```
-git clone https://github.com/yourusername/IDS.git
-```
+    ```bash
+    git clone https://github.com/yourusername/IDS.git
+    ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
-```
-cd IDS
-```
+    ```bash
+    cd IDS
+    ```
 
-3. Run the script with the following command:
+3. **Run the script with the following command:**
 
-```
-python3 IDS.py <Events file> <Stats file> <Number of Days>
-```
+    ```bash
+    python3 IDS.py <Events file> <Stats file> <Number of Days>
+    ```
 
-Replace `<Events file>`, `<Stats file>`, and `<Number of Days>` with your desired input parameters.
+    Replace `<Events file>`, `<Stats file>`, and `<Number of Days>` with your desired input parameters.
 
 ## Inputs
 
@@ -42,7 +49,3 @@ Replace `<Events file>`, `<Stats file>`, and `<Number of Days>` with your desire
 ## Alerting
 
 The script flags anomalies detected in the activity logs and provides alerts when anomalies are found.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
