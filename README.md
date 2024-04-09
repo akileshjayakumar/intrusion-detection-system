@@ -1,27 +1,48 @@
-# CSCI262 - Assignment 3
-## Name: Akilesh Jayakumar
-## UOW ID: 7901240
-## Submission Date: 24 November 2023
+# Intrusion Detection System (IDS)
 
----
+This Python script simulates an Intrusion Detection System (IDS) for analyzing activity logs and detecting anomalies. It takes event and statistics data as input, generates activity logs, analyzes them, and flags anomalies if detected.
 
-## PROGRAM DESCRIPTION
+## Requirements
 
-This Python program serves as an Intrusion Detection System (IDS) designed for monitoring email activities. It operates by simulating email usage, generating activity logs, analyzing these logs to establish a baseline, and subsequently detecting anomalies against this baseline to identify potential intrusions.
+- Python 3.x
 
----
+## Usage
 
-## EXECUTION INSTRUCTIONS
+1. Clone the repository:
 
-### Prerequisites:
-- Python3 is required.
+```
+git clone https://github.com/yourusername/IDS.git
+```
 
-### Steps to Run the Program:
-1. Open the terminal or command prompt.
-2. Navigate to the directory where the source files are located.
-3. Run the program using the following command:
+2. Navigate to the project directory:
 
+```
+cd IDS
+```
 
-Replace `<Number of Days>` with an integer value representing the number of days for which you want to simulate activity.
+3. Run the script with the following command:
 
----
+```
+python3 IDS.py <Events file> <Stats file> <Number of Days>
+```
+
+Replace `<Events file>`, `<Stats file>`, and `<Number of Days>` with your desired input parameters.
+
+## Inputs
+
+- `<Events file>`: File containing event data.
+- `<Stats file>`: File containing statistics data.
+- `<Number of Days>`: Number of days for activity simulation.
+
+## Outputs
+
+- `ActivityLogs.txt`: Generated activity logs.
+- `BaselineStats.txt`: Output file containing baseline statistics.
+
+## Alerting
+
+The script flags anomalies detected in the activity logs and provides alerts when anomalies are found.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
