@@ -13,7 +13,7 @@ This Python script simulates an Intrusion Detection System (IDS) for analyzing a
 - Generates activity logs based on event and statistics data.
 - Calculates baseline statistics for comparison with activity logs.
 
-## Usage
+## Project Setup
 
 1. **Clone the repository:**
 
