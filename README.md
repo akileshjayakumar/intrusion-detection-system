@@ -50,6 +50,20 @@ This Python script simulates an Intrusion Detection System (IDS) for analyzing a
 
 The script flags anomalies detected in the activity logs and provides alerts when anomalies are found.
 
-## License
+## Contributing
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Your contributions are welcome! If you have ideas for improvements or new features:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Submit a pull request.
+
+## Contact Information
+
+For more information, please reach out to me at:
+
+- **Email**: jayakuma006@mymail.sim.edu.sg
+- **LinkedIn**: [Akilesh Jayakumar on LinkedIn](https://www.linkedin.com/in/akileshjayakumar/)
+- **GitHub**: [Akilesh Jayakumar on GitHub](https://github.com/akileshjayakumar)
