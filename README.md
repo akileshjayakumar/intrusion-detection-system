@@ -4,7 +4,7 @@ This Python script simulates an Intrusion Detection System (IDS) for analyzing a
 
 ## Requirements
 
-- Python 3.x
+- Python3
 
 ## Features
 
@@ -18,13 +18,13 @@ This Python script simulates an Intrusion Detection System (IDS) for analyzing a
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/IDS.git
+    git clone https://github.com/akileshjayakumar/intrusion-detection-system
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd IDS
+    cd intrusion-detection-system
     ```
 
 3. **Run the script with the following command:**
